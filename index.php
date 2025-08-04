@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "6817523884:AAHCtO5aUPXSCqCk3ycPDsfbIN-j1xInTBY";
+$botToken = "7487128174:AAGxTl4vEK_mYA63lAXeP-bqFsvpw_aL-b0";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,8 +28,8 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '✅';
-$owner = '<code>@spiderslatt</code>';
-$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @spiderslatt";
+$owner = '<code>@MRCARDER700</code>';
+$botu = "𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↯ @MRCARDER700";
 $cofuid = '1212';
 $cofuid2 = '1212';
 $cofuid3 = '1212';
@@ -89,7 +89,7 @@ $owner = '<code>@spiderslatt</code>';
 $keyboard = json_encode([
     'inline_keyboard' => [
         [
-            ['text' => " Owner ", 'url' => "t.me/spiderslatt"],
+            ['text' => " Owner ", 'url' => "t.me/MRCARDER700"],
         ],
     ]
 ]);
